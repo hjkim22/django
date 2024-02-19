@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "django"
+name = "django_backend"
 version = "0.1.0"
 description = "python django project"
 authors = ["hjhj <hjhjgudwls@gmail.com>"]
@@ -7,7 +7,10 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
+pyjwt = "^2.8.0"
 
+django = "^3.2.12"
+djangorestframework-simplejwt = "^5.3.1"
 
 [build-system]
 requires = ["poetry-core"]
